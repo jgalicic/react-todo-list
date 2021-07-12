@@ -116,3 +116,9 @@ hr {
 .completed {
   color: rgb(107, 74, 74);
 }
+
+@media only screen and (max-width: 720px) {
+  .TodoList {
+    width: 90vw;
+  }
+}
